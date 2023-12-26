@@ -1,0 +1,47 @@
+*:any-link {
+  text-decoration: none;
+  color: #ef8;
+}
+
+html {
+  background-color: #012;
+  font-family: monospace;
+  font-size: 10px;
+}
+
+body {
+  background-color: #123;
+  border: 1px solid white;
+  color: #987;
+  font-size: clamp(1rem, 2.5vw, 2rem);
+  margin: 10px auto;
+  max-width: 800px;
+  min-width: 300px;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+.img-recipe {
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  width: 25.6em;
+}
+
+.button {
+  background-color: #f68;
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.top {
+  background-color: #68f;
+}
+
+.info {
+  display: block;
+  padding-top: 10px;
+}
